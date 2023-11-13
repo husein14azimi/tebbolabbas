@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <title>طب العباس</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ما در طبّ العبّاس به دنبال تغییر سبک زندگی با رویکرد اسلامی هستیم. این سبک زندگی ماست که سلامت تمامی زمینه‌های زندگی را می‌سازد."
+    />
+    <link rel="icon" href="img/favIcon.png" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="general.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+
+    <!-- FONTS: -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="ShowDate();">
+    <header class="header ltr sticky">
+      <a href="#">
+        <picture>
+          <source srcset="img/tebbolAbbasHeader.webp" type="image/webp" />
+          <source srcset="img/tebbolAbbasHeader.png" type="image/png" />
+          <img
+            src="img/tebbolAbbasHeader.png"
+            alt="tebbolabbas logo"
+            class="header-logo"
+          />
+        </picture>
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a class="nav-link color--white" href="#">ورود</a></li>
+          <li><a class="nav-link nav-cta" href="#">ثبت‌نام</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-nav-btn" id="mobile-nav-btn">
+        <span class="mobile-nav-icon" name="menu">=</span>
+        <span class="mobile-nav-icon" name="close">×</span>
+      </button>
+    </header>
+    <div class="container">
+      <main>
+        <section class="section-hero">
+          <div class="hero-container">
+            <div class="hero-text-box">
+              <h1 class="hero-h1 center">
+                طبّ العبّاس<span class="doroud">(علیه السّلام)</span>
+              </h1>
+              <p class="hero-text center">راهی به سبک زندگی سالم</p>
+              <div class="hero-btn-container">
+                <a href="#" class="btn login">ورود</a>
+                <a href="#" class="btn signup">ثبت‌نام</a>
+              </div>
+            </div>
+            <div class="hero-img-box">
+              <picture>
+                <source srcset="img/hazrateAbbasHero.webp" type="image/webp" />
+                <source srcset="img/hazrateAbbasHero.png" type="image/png" />
+                <img
+                  class="hero-img"
+                  alt="hazrate abbas calligraphy"
+                  src="img/hazrateAbbasHero.png"
+                />
+              </picture>
+            </div>
+          </div>
+        </section>
+        <section class="section-blog">
+          <div class="blog-container grid grid--2-cols">
+            <div class="blog-recent">
+              <h3 class="blog-title center">مطالب تازه</h3>
+              <div class="blog-list">
+                <a class="blog-item recent-blog-item" href="nourehana.html">
+                  <p class="blog-item-text">
+                    تخلیه:<br />دستورالعمل نوره&mdash;حنا
+                  </p>
+                  <img
+                    class="blog-item-img"
+                    src="img/blogProfile.png"
+                    alt="lorem ipsum"
+                    style="width: 4.8rem"
+                  />
+                </a>
+                <a class="blog-item recent-blog-item" href="#">
+                  <p class="blog-item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum omnis numquam earum consequuntur
+                  </p>
+                  <img
+                    class="blog-item-img"
+                    src="img/blogProfile.png"
+                    alt="lorem ipsum"
+                    style="width: 4.8rem"
+                  />
+                </a>
+                <a class="blog-item recent-blog-item" href="#">
+                  <p class="blog-item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum omnis numquam earum consequuntur
+                  </p>
+                  <img
+                    class="blog-item-img"
+                    src="img/blogProfile.png"
+                    alt="lorem ipsum"
+                    style="width: 4.8rem"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="blog-favorite">
+              <h3 class="blog-title center">مطالب برگزیده</h3>
+              <div class="blog-list">
+                <a class="blog-item favorite-blog-item" href="#">
+                  <p class="blog-item-text">
+                    تخلیه:<br />دستورالعمل نوره&mdash;حنا
+                  </p>
+                  <img
+                    class="blog-item-img"
+                    src="img/blogProfile.png"
+                    alt="lorem ipsum"
+                    style="width: 4.8rem"
+                  />
+                </a>
+                <a class="blog-item favorite-blog-item" href="#">
+                  <p class="blog-item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum omnis numquam earum consequuntur
+                  </p>
+                  <img
+                    class="blog-item-img"
+                    src="img/blogProfile.png"
+                    alt="lorem ipsum"
+                    style="width: 4.8rem"
+                  />
+                </a>
+                <a class="blog-item favorite-blog-item" href="#">
+                  <p class="blog-item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum omnis numquam earum consequuntur
+                  </p>
+                  <img
+                    class="blog-item-img"
+                    src="img/blogProfile.png"
+                    alt="lorem ipsum"
+                    style="width: 4.8rem"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <section class="section-shop">
+          <div class="shop-container">
+            <h2 class="center">محصولات پرطرفدار</h2>
+            <div class="shop-gallery grid grid--3-cols">
+              <figure class="product">
+                <img
+                  alt="product one"
+                  src="level1.png"
+                  style="max-width: 35rem; max-height: 35rem"
+                /> -->
+        <!-- <figcaption>Lorem ipsum</figcaption> -->
+        <!-- </figure>
+              <figure class="product"></figure>
+              <figure class="product"></figure>
+              <figure class="product"></figure>
+              <figure class="product"></figure>
+              <figure class="product"></figure>
+            </div>
+          </div>
+        </section> -->
+      </main>
+    </div>
+    <footer>
+      <div class="footer-container container footer-grid">
+        <div class="main-nav-col">
+          <img
+            class="footer-logo"
+            alt="tebbolabbas logo"
+            src="img/tebbolAbbaasFooter.png"
+          />
+        </div>
+        <div class="nav-col">
+          <a href="#" class="footer-link">صفحه اصلی</a>
+          <a href="#" class="footer-link">فروشگاه</a>
+          <a href="#" class="footer-link">تماس با ما</a>
+        </div>
+        <div class="nav-col">
+          <a href="#" class="footer-link">مطالب تازه</a>
+          <a href="#" class="footer-link">مطالب برگزیده</a>
+          <a href="#" class="footer-link">درباره</a>
+        </div>
+      </div>
+      <p class="design-by center">
+        <span id="time" class="ltr"></span>
+        &mdash;
+        <span>طَرّٰاحي وَ اِجْرٰا: سٰایْت طِبُّ اْلعَبّٰاسْ</span>
+      </p>
+    </footer>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/persian-date.js"></script>
+  </body>
+</html>

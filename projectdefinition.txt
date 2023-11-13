@@ -1,0 +1,16 @@
+IN THE NAME OF GOD
+
+project: teb website
+who the project is for: client
+the target audience: ordinary people (mostly mobile phones)
+
+
+
+the website sections:
+Logo+Navigation
+Hero
+Website & Institute Description
+Recent & Favourite Blogs
+Products description (SALE Gallery)
+CTA
+Footer
